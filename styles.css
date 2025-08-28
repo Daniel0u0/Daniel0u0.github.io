@@ -1,0 +1,64 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4f8; /* Light blue-gray */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Title Style */
+h1 {
+    color: #2c3e50; /* Dark blue */
+    text-align: center;
+    border-bottom: 2px solid #3498db; /* Blue bottom line */
+    padding-bottom: 10px;
+}
+
+/* Paragraphs and lists */
+p, ul {
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* White card */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    transition: transform 0.2s; /* Sliding Effect */
+}
+
+li:hover {
+    transform: translateY(-2px); /* Slight rise when hovering */
+}
+
+a {
+    color: #3498db; /* Link Blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    li {
+        padding: 10px;
+    }
+}
